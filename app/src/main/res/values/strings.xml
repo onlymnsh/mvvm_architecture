@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TA</string>
+    <string name="best_match">Best Match</string>
+    <string name="newest">Newest</string>
+    <string name="rating_average">Rating Average</string>
+    <string name="distance">Distance</string>
+    <string name="popularity">Popularity</string>
+    <string name="average_product_price">Average Product Price</string>
+    <string name="delivery_cost">Delivery Cost</string>
+    <string name="min_price">Min Price</string>
+    <string-array name="sorting_types">
+        <item>@string/best_match</item>
+        <item>@string/newest</item>
+        <item>@string/rating_average</item>
+        <item>@string/distance</item>
+        <item>@string/popularity</item>
+        <item>@string/average_product_price</item>
+        <item>@string/delivery_cost</item>
+        <item>@string/min_price</item>
+    </string-array>
+</resources>
