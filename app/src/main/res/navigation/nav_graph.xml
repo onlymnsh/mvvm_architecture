@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/RestaurantsFragment">
-
+    app:startDestination="@id/fragmentDataStore">
     <fragment
-        android:id="@+id/RestaurantsFragment"
-        android:name="com.example.ta.ui.restaurants.RestaurantsFragment"
-        android:label="Restaurants"
-        tools:layout="@layout/restaurant_fragment" >
-    </fragment>
+        android:id="@+id/fragmentDataStore"
+        android:name="com.example.architecture.features.datastore.fragment.FragmentDataStore"
+        android:label="FragmentDataStore" />
 </navigation>
